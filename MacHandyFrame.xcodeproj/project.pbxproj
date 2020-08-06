@@ -11,6 +11,7 @@
 		4A37D69E24DBD25100ED4106 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A37D69D24DBD25100ED4106 /* ViewController.swift */; };
 		4A37D6A024DBD25300ED4106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A37D69F24DBD25300ED4106 /* Assets.xcassets */; };
 		4A37D6A324DBD25300ED4106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A37D6A124DBD25300ED4106 /* Main.storyboard */; };
+		4A37D6AD24DBD28800ED4106 /* MacHandyFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A37D6AC24DBD28800ED4106 /* MacHandyFrame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		4A37D6A224DBD25300ED4106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A37D6A424DBD25300ED4106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A37D6A524DBD25300ED4106 /* MacHandyFrame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacHandyFrame.entitlements; sourceTree = "<group>"; };
+		4A37D6AC24DBD28800ED4106 /* MacHandyFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacHandyFrame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +55,21 @@
 		4A37D69A24DBD25100ED4106 /* MacHandyFrame */ = {
 			isa = PBXGroup;
 			children = (
+				4A37D6AB24DBD27700ED4106 /* MacHandyFrame */,
 				4A37D69B24DBD25100ED4106 /* AppDelegate.swift */,
 				4A37D69D24DBD25100ED4106 /* ViewController.swift */,
 				4A37D69F24DBD25300ED4106 /* Assets.xcassets */,
 				4A37D6A124DBD25300ED4106 /* Main.storyboard */,
 				4A37D6A424DBD25300ED4106 /* Info.plist */,
 				4A37D6A524DBD25300ED4106 /* MacHandyFrame.entitlements */,
+			);
+			path = MacHandyFrame;
+			sourceTree = "<group>";
+		};
+		4A37D6AB24DBD27700ED4106 /* MacHandyFrame */ = {
+			isa = PBXGroup;
+			children = (
+				4A37D6AC24DBD28800ED4106 /* MacHandyFrame.swift */,
 			);
 			path = MacHandyFrame;
 			sourceTree = "<group>";
@@ -133,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A37D6AD24DBD28800ED4106 /* MacHandyFrame.swift in Sources */,
 				4A37D69E24DBD25100ED4106 /* ViewController.swift in Sources */,
 				4A37D69C24DBD25100ED4106 /* AppDelegate.swift in Sources */,
 			);
