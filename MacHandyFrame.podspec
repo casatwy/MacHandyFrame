@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MacHandyFrame"
-  s.version      = "0"
+  s.version      = "1"
   s.summary      = "MacHandyFrame."
 
   # This description is used to generate tags and improve search results.
